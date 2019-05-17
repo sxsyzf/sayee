@@ -43,6 +43,7 @@ public class TestDataController extends BaseController {
 		if (entity == null){
 			entity = new TestData();
 		}
+		System.out.println("22");
 		return entity;
 	}
 	
